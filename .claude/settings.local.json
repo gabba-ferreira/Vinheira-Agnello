@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/home/gabriel/Downloads/eclipse/eclipse:*)",
+      "Bash(cp /home/gabriel/projects/fiap/vinheira-agnello/WebContent/index.jsp /home/gabriel/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/vinheira-agnelo/)",
+      "Bash(cp /home/gabriel/projects/fiap/vinheira-agnello/WebContent/catalogo.jsp /home/gabriel/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/vinheira-agnelo/)",
+      "Bash(cp /home/gabriel/projects/fiap/vinheira-agnello/WebContent/contato.jsp /home/gabriel/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/vinheira-agnelo/)",
+      "Bash(cp /home/gabriel/projects/fiap/vinheira-agnello/WebContent/sobre.jsp /home/gabriel/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/vinheira-agnelo/)",
+      "Bash(cp /home/gabriel/projects/fiap/vinheira-agnello/WebContent/css/style.css /home/gabriel/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/vinheira-agnelo/css/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8080/vinheira-agnello/catalogo)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8080/vinheira-agnello/index.jsp)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8080/)",
+      "Bash(/usr/share/tomcat10/apache-tomcat-10.1.36/bin/catalina.sh start:*)",
+      "Bash(curl -s -o /dev/null -w \"index: %{http_code}\\\\n\" http://localhost:8080/vinheira-agnello/)",
+      "Bash(curl -s -o /dev/null -w \"catalogo: %{http_code}\\\\n\" http://localhost:8080/vinheira-agnello/catalogo)",
+      "Bash(curl -s -o /dev/null -w \"contato: %{http_code}\\\\n\" http://localhost:8080/vinheira-agnello/contato)",
+      "Bash(curl -s -o /dev/null -w \"catalogo:  %{http_code}\\\\n\" http://localhost:8080/vinheira-agnello/catalogo)",
+      "Bash(curl -s -o /dev/null -w \"carrinho:  %{http_code}\\\\n\" http://localhost:8080/vinheira-agnello/carrinho)",
+      "Bash(curl -s -o /dev/null -w \"pagamento: %{http_code}\\\\n\" http://localhost:8080/vinheira-agnello/pagamento)"
+    ]
+  }
+}
