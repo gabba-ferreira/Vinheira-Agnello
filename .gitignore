@@ -1,0 +1,17 @@
+# Build
+build/
+target/
+
+# Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+
+# IDE
+*.class
+*.war
+*.jar
+
+# Logs
+*.log
